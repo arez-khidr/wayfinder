@@ -16,21 +16,20 @@ body {
 
 .app-container {
   width: 390px;
-  /* iPhone 13 height is 844px, bottom bar is ~34px */
-  height: 810px;
+  height: 700px;
   position: fixed;
   background: white;
   display: flex;
   flex-direction: column; 
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 }
 
 .title {
   font-size: 48px;
   text-align: center;
   line-height: 1.2;
-  width: 340px;
+  width: 355px;
 }
 
 .gallery-select {
@@ -46,10 +45,9 @@ body {
   border: none;
   border-radius: 15px;
   font-family: 'Inria Serif', serif;
-  font-size: 64px;
+  font-size: 36px;
   width: 355px;
   height: 300px;
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -65,8 +63,7 @@ body {
   font-family: 'Inria Serif', serif;
   font-size: 36px;
   width: 340px;
-  height: 160px;
-  display: flex;
+  height: 100px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -76,6 +73,14 @@ body {
 }
 
 .map {
-  width: 355px; 
-  height: 400px;
+  width: 340px; 
+  height: 340px;
 }
+
+
+
+
+
+
+
+
