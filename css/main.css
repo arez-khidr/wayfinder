@@ -10,35 +10,34 @@ body {
   width: 100vw;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   overflow: hidden;
 }
 
 .app-container {
   width: 390px;
-  /* iPhone 13 height is 844px, bottom bar is ~34px */
-  height: 810px;
+  height: 844px;
   position: fixed;
-  top: 0;
   background: white;
   display: flex;
   flex-direction: column; 
   justify-content: center;
-  align-items: center;
+  align-items: center; 
+  padding-bottom: 34px;
 }
 
-.title {
-  font-size: 48px;
+h1 {
+  font-size: 36px;
   text-align: center;
   line-height: 1.2;
   width: 340px;
 }
 
-.gallery-select {
-  font-size: 36px;
+h2 {
+  font-size: 24px;
   text-align: center;
   line-height: 1.2;
-  width: 355px;
+  width: 340px;
 }
 
 .begin-button {
@@ -47,15 +46,15 @@ body {
   border: none;
   border-radius: 15px;
   font-family: 'Inria Serif', serif;
-  font-size: 64px;
-  width: 355px;
+  font-size: 36px;
+  width: 340px;
   height: 300px;
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   cursor: pointer;
-  padding: 20px;
+  padding: 10px;
+  margin-top: 20px;
 }
 
 .help-button {
@@ -66,8 +65,7 @@ body {
   font-family: 'Inria Serif', serif;
   font-size: 36px;
   width: 340px;
-  height: 160px;
-  display: flex;
+  height: 80px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -76,7 +74,16 @@ body {
   margin-top: 20px;
 }
 
-.map {
-  width: 355px; 
-  height: 400px;
+.logo {
+  width: 200px; 
+  height: 200px;
+  margin-top: 10px;
 }
+
+
+
+
+
+
+
+
